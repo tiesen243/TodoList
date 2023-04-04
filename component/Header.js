@@ -10,6 +10,7 @@ function Header() {
                 autofocus 
                 onkeyup="event.code === 'Enter' && dispatch('add', this.value.trim());"
             >
+            
         </header>
     `
 }
